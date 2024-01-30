@@ -13,7 +13,9 @@ import salesRoutes from "./routes/sales.js";
 // Data Imports
 
 import User from "./models/User.js";
-import { dataUser } from "./data/index.js";
+import Product from "./models/Products.js";
+import ProductStat from "./models/ProductStat.js";
+import { dataUser, dataProduct, dataProductStat } from "./data/index.js";
 
 /* Configuration */
 
@@ -42,6 +44,8 @@ mongoose
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
     // ONLY ADD DATA ONE TIME
-    User.insertMany(dataUser);
+    // Product.insertMany(dataProduct);
+    // ProductStat.insertMany(dataProductStat);
+    // User.insertMany(dataUser);
   })
   .catch((error) => console.log(`${error} did not connect to server`));
