@@ -13,7 +13,7 @@ const ProductSchema = new mongoose.Schema(
       totalUnits: Number,
     },
   },
-  { timeStamps: true }
+  { timestamps: true }
 );
 
 const ProductStat = mongoose.model("ProductStat", ProductSchema);
