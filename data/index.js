@@ -2530,7 +2530,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d25f03239d591000328",
-    name: "Israel Chason",
+    name: "Lebanon Chason",
     price: 342.56,
     description: "Transfuse Autol Hemat Stem Cell in Central Art, Perc",
     category: "clothing",
