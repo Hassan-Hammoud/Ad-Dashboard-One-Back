@@ -24,9 +24,11 @@ const UserSchema = new mongoose.Schema(
     city: String,
     state: String,
     country: String,
+    street: String,
     occupation: String,
     phoneNumber: String,
     transactions: Array,
+
     role: {
       type: String,
       enum: ["user", "admin", "superadmin"],
