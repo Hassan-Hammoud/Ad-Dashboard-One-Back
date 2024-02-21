@@ -380,7 +380,7 @@ export const dataAffiliateStat = [
   },
   {
     _id: "6371251df03239eb0c000000",
-    userId: "63701cc1f03239b7f700000e",
+    userId: "63701cc1f03239c72c00017f",
     affiliateSales: [
       "63701d74f03239bef0000146",
       "63701d74f03239b7f7000030",
@@ -13051,7 +13051,7 @@ export const dataTransaction = [
   },
   {
     _id: "63701d74f03239c72c0001ae",
-    userId: "63701cc1f03239b7f700000e",
+    userId: "63701cc1f03239c72c00017f",
     cost: 601.72,
     products: [
       "63701d24f032399c0000012c",
@@ -13611,7 +13611,7 @@ export const dataTransaction = [
   },
   {
     _id: "63701d74f03239867500015a",
-    userId: "63701cc1f03239b7f700000e",
+    userId: "63701cc1f03239c72c00017f",
     cost: 2928.08,
     products: ["63701d24f03239d81e000017", "63701d24f0323944410002ed"],
   },
@@ -14259,12 +14259,7 @@ export const dataTransaction = [
       "63701d24f032399c0000012d",
     ],
   },
-  {
-    _id: "63701d74f032394441000309",
-    userId: "63701cc1f03239c72c00017f",
-    cost: 1668.42,
-    products: ["63701d24f03239d40b000050"],
-  },
+
   {
     _id: "63701d74f03239444100030a",
     userId: "63701cc1f03239b91300000e",
@@ -16604,7 +16599,7 @@ export const dataTransaction = [
   },
   {
     _id: "63701d74f032396b8e000021",
-    userId: "63701cc1f03239b7f700000e",
+    userId: "63701cc1f03239c72c00017f",
     cost: 3396.07,
     products: [
       "63701d24f03239db6900012d",
@@ -17307,24 +17302,6 @@ export const dataTransaction = [
 ];
 
 export const dataUser = [
-  {
-    _id: "63701cc1f03239c72c00017f",
-    name: "joe",
-    email: "joedowm@gmail.com",
-    password: "omMDCh",
-    city: "Akkar",
-    state: null,
-    country: "Lebanon",
-    occupation: "Web Developer",
-    phoneNumber: "70118991",
-    transactions: [
-      "63701d74f0323986f3000158",
-      "63701d74f03239d40b00007e",
-      "63701d74f03239867500014b",
-      "63701d74f032398675000152",
-    ],
-    role: "superadmin",
-  },
   {
     _id: "63701cc1f03239c72c000180",
     name: "Marilyn",
@@ -18040,7 +18017,7 @@ export const dataUser = [
     role: "user",
   },
   {
-    _id: "63701cc1f03239b7f700000e",
+    _id: "63701cc1f03239c72c00017f",
     name: "Hassan",
     email: "hassanwebdev@ycombinator.com",
     password: "RSjzmAjnq",
